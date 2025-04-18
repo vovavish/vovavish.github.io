@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/vovavish.github.io/',
   plugins: [react()],
   resolve: {
     alias: {
