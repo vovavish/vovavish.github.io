@@ -1,0 +1,20 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-block-start: 20px;
+  
+  &__item {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    color: rgb(108, 99, 255);
+  }
+
+  &__text {
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+  }
+}

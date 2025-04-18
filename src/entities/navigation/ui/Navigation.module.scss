@@ -1,0 +1,22 @@
+.nav {
+  &_list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+
+    &__item {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    &_list {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  }
+}

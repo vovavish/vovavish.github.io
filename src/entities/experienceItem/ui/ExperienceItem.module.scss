@@ -1,0 +1,46 @@
+.experienceItem {
+  display: flex;
+  gap: 20px;
+
+  &__logo {
+    width: 150px;
+    align-self: flex-start;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__position {
+    font-weight: 700;
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    margin-inline-start: 20px;
+
+    li::before {
+      content: '•';
+      font-weight: bold;
+      display: inline-block;
+      width: 10px;
+      margin-left: -10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experienceItem {
+    flex-direction: column;
+
+    &__logo {
+      align-self: center;
+    }
+  }
+}
