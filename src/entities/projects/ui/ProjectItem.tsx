@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectItemType } from "../model/ProjectItems";
 import styles from "@widgets/Projects/Projects.module.scss";
 

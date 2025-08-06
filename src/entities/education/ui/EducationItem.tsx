@@ -1,4 +1,3 @@
-import React from "react";
 import { EducationItemType } from "../model/EducationItems";
 import styles from "@widgets/Education/Education.module.scss";
 

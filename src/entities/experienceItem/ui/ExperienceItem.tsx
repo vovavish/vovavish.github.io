@@ -1,5 +1,3 @@
-import greenatomLogo from "@assets/greenatom_logo.svg";
-
 import styles from "./ExperienceItem.module.scss";
 import { ExperienceItemType } from "../model/ExperienceItems";
 import { SectionSubTitle } from "@shared/ui/SectionSubTitle";
