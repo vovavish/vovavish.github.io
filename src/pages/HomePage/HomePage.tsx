@@ -1,4 +1,3 @@
-import { AboutMe } from "@widgets/AboutMe";
 import { Education } from "@widgets/Education";
 import { Experience } from "@widgets/Experience";
 import { Footer } from "@widgets/Footer";
@@ -10,7 +9,6 @@ export const HomePage = () => {
   return (
     <>
       <Header />
-      <AboutMe />
       <Experience />
       <Education />
       <TechonologyStack />

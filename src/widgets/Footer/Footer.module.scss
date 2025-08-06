@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  padding: 32px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  font-size: 1rem;
+  gap: 12px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__link {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer__link:hover {
+  color: #0077ff;
+} 

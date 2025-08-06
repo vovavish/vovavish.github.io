@@ -7,9 +7,6 @@ export const Navigation = () => {
     <nav className={styles.nav}>
       <ul className={styles.nav_list}>
         <li className={styles.nav_list__item}>
-          <NavLink href="#aboutMe">Обо мне</NavLink>
-        </li>
-        <li className={styles.nav_list__item}>
           <NavLink href="#experience">Опыт работы</NavLink>
         </li>
         <li className={styles.nav_list__item}>
